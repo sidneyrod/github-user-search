@@ -1,0 +1,31 @@
+.home-container {
+    margin: 115px 700px 270px 120px;
+  }
+  
+  .title {
+    height: 130px;
+    width: 580px;
+  }
+  
+  .title h1 {
+    font-size: 40px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #062847;
+  }
+  
+  .description {
+    height: 215px;
+    width: 610px;
+    font-size: 20px;
+    line-height: 36px;
+    color: #5A6774;
+    margin-bottom: 50px;
+  }
+  
+  .description a {
+    text-decoration: none;
+    color: #18A0FB;
+  }
