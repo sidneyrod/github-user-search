@@ -14,4 +14,4 @@ const InfoLoader = () => (
   </ContentLoader>
 )
 
-export default InfoLoader
+export default InfoLoader;

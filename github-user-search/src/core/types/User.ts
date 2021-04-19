@@ -1,13 +1,13 @@
 export type User = {
     login: string;
-    id: number;
+    id: string;
     node_id: string;
     avatar_url: string;
-    gravatar_id: number;
+    gravatar_id: string;
     url: string;
     html_url: string;
     followers_url: string;
-    following_url: string;
+    following_url: string; 
     gists_url: string;
     starred_url: string;
     subscriptions_url: string;
@@ -16,19 +16,19 @@ export type User = {
     events_url: string;
     received_events_url: string;
     type: string;
-    site_admin: boolean;
+    site_admin: string;
     name: string;
     company: string;
     blog: string;
     location: string;
     email: string;
-    hireable: boolean;
+    hireable: string;
     bio: string;
     twitter_username: string;
-    public_repos: number;
-    public_gists: number;
-    followers: number;
-    following: number;
+    public_repos: string;
+    public_gists: string;
+    followers: string;
+    following: string;
     created_at: string;
-    updated_at: string;
+    updated_at: string;    
   }
